@@ -1,8 +1,8 @@
-# desafio-GoMarketplace-mobile
+# Desafio GoMarketplace 
 
 Nesse desafio, você desenvolverá uma nova aplicação, a GoMarketplace. Dessa vez é hora de você praticar o que você aprendeu até agora no React Native junto com o TypeScript, utilizando rotas, Async Storage e a Context API.
 
-# Funcionalidades
+## Funcionalidades
 
 - Listar os produtos da fake API: 
 Sua página Dashboard deve ser capaz de exibir uma listagem através de uma tabela.
@@ -17,6 +17,21 @@ Sua página Dashboard deve ser capaz de exibir uma listagem através de uma tabe
 
 - Exibir valor total dos itens no carrinho.
 
-# Layout:
+### Layout:
 https://www.figma.com/file/VgK3hsmyGbqiGu9FdqfUzF/GoMarketplace?node-id=0%3A1
 
+##### Execução:
+- Para instalar as dependências:
+```
+yarn
+```
+
+- Para executar a aplicação:
+```
+yarn start
+```
+
+- Para executar a API fake: 
+```
+ yarn json-server server.json -p 3333
+```
